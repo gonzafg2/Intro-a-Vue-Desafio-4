@@ -5,13 +5,13 @@
       <h2>Introducción a VueJS</h2>
     </header>
 
-    <Form></Form>
+    <Cuenta-regresiva></Cuenta-regresiva>
     
   </div>
 </template>
 
 <script>
-// import Form from './components/Form.vue';
+import CuentaRegresiva from './components/Cuenta-regresiva.vue';
 
 export default {
   name: "App",
@@ -21,7 +21,7 @@ export default {
       }
   },
   components: {
-    // Form
+    CuentaRegresiva
   }
 };
 </script>
